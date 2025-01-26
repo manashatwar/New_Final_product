@@ -869,7 +869,7 @@ import { MessageBoard } from "@/components/MessageBoard";
             </div>
             <div className="flex items-center space-x-4">
             <Header />
- <span className="flex items-center justify-center flex-col">
+ <span className="flex items-center justify-center flex-col hidden">
    {connected ? (
      <Card>
     <CardContent className="bg-customBeaver px-4 py-1.5 rounded text-white-smoke">
