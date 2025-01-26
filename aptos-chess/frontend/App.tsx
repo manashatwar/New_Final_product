@@ -322,7 +322,7 @@ import { MessageBoard } from "@/components/MessageBoard";
  <span className="flex items-center justify-center flex-col">
    {connected ? (
      <Card>
-    <CardContent className="bg-customBeaver px-4 py-1.5 rounded text-white-smoke">
+    <CardContent className="bg-customBeaver px-4 py-1.5 rounded text-white-smoke hidden">
       <WalletDetails />
         <NetworkInfo />
         <AccountInfo />
