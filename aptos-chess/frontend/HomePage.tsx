@@ -37,7 +37,7 @@ import React from 'react';
               <div>
                 {/* Placeholder for the Multi-Chain Image */}
                 <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                  Placeholder Image
+                <img src=".\frontend\folder\first.jpg" alt="duhueg" />
                 </div>
               </div>
               <div>
@@ -66,11 +66,12 @@ import React from 'react';
             <div className="overflow-hidden my-12 py-8 border-t border-b border-gray-300 relative" style={{ height: '12rem' }}>
               <div className="flex items-center justify-around whitespace-nowrap animate-scroll-logos absolute left-0 top-0" style={{ gap: '2rem' }}>
                 {/* Placeholder Logos */}
-                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 1</div><div className="text-sm font-bold mt-2 text-center">Devdock</div></div>
-                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 2</div><div className="text-sm font-bold mt-2 text-center">Aptos</div></div>
-                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 3</div><div className="text-sm font-bold mt-2 text-center">Educhain</div></div>
-                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 4</div><div className="text-sm font-bold mt-2 text-center">LNMHackes</div></div>
-                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 1</div><div className="text-sm font-bold mt-2 text-center">Devdock</div></div>
+                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2"><img src=".\frontend\folder\Devdock111.png" alt="" />
+                </div><div className="text-sm font-bold mt-2 text-center">Devdock</div></div>
+                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 2</div><div className="text-sm font-bold mt-2 text-center"><img src=".\frontend\folder\aptos.jpg" alt="" /></div></div>
+                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 3</div><div className="text-sm font-bold mt-2 text-center"><img src=".\frontend\folder\Devdock.png" alt="" /></div></div>
+                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 4</div><div className="text-sm font-bold mt-2 text-center"><img src=".\frontend\folder\lnmacks.jpg" alt="" /></div></div>
+                <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 1</div><div className="text-sm font-bold mt-2 text-center"><img src=".\frontend\folder\Devdock.png" alt="" /></div></div>
                 <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 2</div><div className="text-sm font-bold mt-2 text-center">Aptos</div></div>
                 <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 3</div><div className="text-sm font-bold mt-2 text-center">Educhain</div></div>
                 <div className="h-32 w-64 bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-500"><div className="mb-2">Logo 4</div><div className="text-sm font-bold mt-2 text-center">LNMHackes</div></div>
@@ -88,7 +89,7 @@ import React from 'react';
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col">
                 {/* Placeholder for the User Image */}
                 <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
-                  Placeholder Image
+                <img  className="h-60" src=".\frontend\folder\bvhh.jpg" alt="" />
                 </div>
                 <h3 className="text-2xl font-semibold text-almond mb-2 mt-4">For Players</h3>
                 <p className="text-gray-600 mb-4 flex-grow">
@@ -107,7 +108,7 @@ Experience the thrill of competitive chess in a modern, blockchain-powered ecosy
     
                 {/* Placeholder for the Developer Image */}
                 <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
-                  Placeholder Image
+                <img src=".\frontend\folder\fordevelop.jpg" alt="" />
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-2">For Developers</h3>
                 <p className="text-gray-600 mb-4">
@@ -128,7 +129,7 @@ Experience the thrill of competitive chess in a modern, blockchain-powered ecosy
               <div className="bg-white rounded-lg shadow-md p-6">
                 {/* Placeholder for the Async Image */}
                 <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
-                  Placeholder Image
+                  <img className="h-30" src=".\frontend\folder\WhatsApp Image 2025-01-26 at 12.19.10_3c1b5eee.jpg" alt="" />
                 </div>
                 <h3 className="text-2xl font-semibold text-almond mb-2">Secure Transactions</h3>
                 <p className="text-gray-600 mb-4">
@@ -140,7 +141,7 @@ Experience the thrill of competitive chess in a modern, blockchain-powered ecosy
               <div className="bg-white rounded-lg shadow-md p-6">
                 {/* Placeholder for the Timers Image */}
                 <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
-                  Placeholder Image
+                  <img  src=".\frontend\folder\hbvjkv.jpg" alt="" />
                 </div>
                 <h3 className="text-2xl font-semibold text-almond mb-2">Skill-Based Gameplay</h3>
                 <p className="text-gray-600 mb-4">
@@ -152,7 +153,7 @@ Experience the thrill of competitive chess in a modern, blockchain-powered ecosy
               <div className="bg-white rounded-lg shadow-md p-6">
                 {/* Placeholder for the Interoperability Image */}
                 <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
-                  Placeholder Image
+                <img src=".\frontend\folder\global.jpg" alt="" />
                 </div>
                 <h3 className="text-2xl font-semibold text-almond mb-2">Global Connectivity</h3>
                 <p className="text-gray-600 mb-4">
