@@ -1,12 +1,12 @@
 [package]
-name = "MessageBoard"
-version = "1.0.0"
-authors = []
-
-[addresses]
-message_board_addr = "_"
+name = "AptosBetting"
+version = "0.0.1"
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-stdlib" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "move-stdlib" }
 
-[dev-dependencies]
+[addresses]
+aptos_framework = "0x1"
+betting = "0d427a97f3dae2d589eec099649d46c2203d48aa7c833406e954bfa004e2b007"
