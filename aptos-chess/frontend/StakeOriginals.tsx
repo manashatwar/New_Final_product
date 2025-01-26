@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
     import { RefreshCcw, MessageSquare } from 'lucide-react';
+import ChessBoard from './ChessBoard';
     
     interface StakeOriginalsProps {
       betAmount: string;
@@ -76,10 +77,19 @@ import React, { useState } from 'react';
       handleHalfBetAmount,
       handleDoubleBetAmount,
     }: StakeOriginalsProps) {
+      const bettingRef = useRef<HTMLDivElement>(null);
+      const [bettingHeight, setBettingHeight] = useState(0);
+    
+      useEffect(() => {
+        if (bettingRef.current) {
+          setBettingHeight(bettingRef.current.offsetHeight);
+        }
+      }, []);
+    
       return (
         <div className="flex gap-6 h-full overflow-y-auto">
           {/* Left Side Betting Interface */}
-          <div className="w-[300px] bg-gunmetal rounded-lg p-4 flex flex-col">
+          <div ref={bettingRef} className="w-[300px] bg-gunmetal rounded-lg p-4 flex flex-col">
             {/* Mode Toggle */}
             <div className="flex rounded-lg overflow-hidden bg-black mb-6 relative">
               <button 
@@ -253,19 +263,21 @@ import React, { useState } from 'react';
     
           {/* Game Screen */}
           <div className="flex-1 flex flex-col">
-            <div className="w-full h-48 bg-gunmetal rounded-lg mb-4">
-              {/* Empty Game Screen */}
+            <div style={{ height: `${bettingHeight}px` }} className="w-full bg-gunmetal rounded-lg mb-4">
+            <div className="App">
+      <ChessBoard />
+    </div>
             </div>
             <div className="w-full bg-gunmetal rounded-lg p-4">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex flex-col">
-                  <h2 className="text-white-smoke text-xl font-bold">Dice <span className="text-gray-400 text-sm">Stake Originals</span></h2>
+                  <h2 className="text-white-smoke text-xl font-bold">Chess <span className="text-gray-400 text-sm"> Have Fun</span></h2>
                   <div className="flex items-center space-x-2">
-                    <span className="text-gray-400 text-sm">Edge: <span className="text-white-smoke">1.00%</span></span>
+                   
                   </div>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-white-smoke text-sm">9,900.00x Minys</span>
+                 
                   <button className="text-gray-400 hover:text-white-smoke">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-down" viewBox="0 0 16 16">
                       <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -274,9 +286,7 @@ import React, { useState } from 'react';
                 </div>
               </div>
               <div className="flex space-x-2 mb-4">
-                <button className="bg-gray-800 rounded-md px-3 py-1 text-white-smoke text-sm">Big Wins</button>
-                <button className="bg-gray-800 rounded-md px-3 py-1 text-white-smoke text-sm">Lucky Wins</button>
-                <button className="bg-gray-800 rounded-md px-3 py-1 text-white-smoke text-sm">Challenges</button>
+              
                 <button className="bg-gray-700 rounded-md px-3 py-1 text-white-smoke text-sm">Description</button>
               </div>
               <div className="flex space-x-4">

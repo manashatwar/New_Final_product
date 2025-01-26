@@ -8,16 +8,14 @@ import React from 'react';
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h1 className="text-5xl font-extrabold text-almond mb-4">
-                  Master the Game  Win the Rewards
-                    Play chess like never before—where skill meets crypto rewards.
-
+                  Orchestrating the Web3 Economy
                 </h1>
                 <p className="text-xl text-almond mb-8">
-                 Experience the thrill of competitive chess with real stakes. Bet with cryptocurrency and win big!
+                  Build feature-rich applications that seamlessly manage assets and services across multiple blockchains.
                 </p>
                 <div className="flex items-center space-x-4">
                   <button className="bg-walnut-brown hover:bg-khaki text-white font-bold py-3 px-6 rounded">
-                    Play and Earn Now
+                    Get Early Access
                   </button>
                   <a href="/" className="text-blue-500 hover:text-blue-700 font-semibold flex items-center">
                     Learn More 
@@ -44,10 +42,12 @@ import React from 'react';
               </div>
               <div>
                 <h2 className="text-4xl font-extrabold text-almond mb-4">
-                The Ultimate Chess Arena
+                  The world is going multi-chain
                 </h2>
                 <p className="text-lg text-almond mb-8">
-                 "Secure, Fast, Crypto-Powered."
+                  Users are increasingly exploring multi-chain solutions to solve their problems. Orchestration gives
+                  developers the platform to program those solutions, and access to the Total Reachable Value of the entire
+                  interchain ecosystem.
                 </p>
                 <div className="flex items-center space-x-8">
                   <div>
@@ -92,9 +92,10 @@ import React from 'react';
                 <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
                   Placeholder Image
                 </div>
-                <h3 className="text-2xl font-semibold text-almond mb-2 mt-4">For Players</h3>
+                <h3 className="text-2xl font-semibold text-almond mb-2 mt-4">For Users</h3>
                 <p className="text-gray-600 mb-4 flex-grow">
-                  Experience the thrill of competitive chess in a modern, blockchain-powered ecosystem. Compete, win, and earn crypto rewards in a secure and seamless environment.
+                  Enjoy frictionless, one-click interactions across multiple chains, unlocking chain abstraction and
+                  enhancing the Web3 user experience.
                 </p>
                 <a href="/" className="text-blue-500 hover:text-blue-700 font-semibold flex items-center mt-auto">
                   Learn more 
@@ -113,7 +114,8 @@ import React from 'react';
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-2">For Developers</h3>
                 <p className="text-gray-600 mb-4">
-                  Unlock the potential of blockchain gaming. Build next-gen chess tournaments, automate payouts, and engage players with smart contract technology.
+                  Leverage cross-chain programmability and multi-block execution to build next-gen applications that
+                  transcend isolated blockchains.
                 </p>
                 <a href="/" className="text-blue-500 hover:text-blue-700 font-semibold flex items-center mt-auto">
                   Learn more 
@@ -124,8 +126,7 @@ import React from 'react';
     
           {/* Key Orchestration Features Section */}
           <section className="container mx-auto mt-24 px-5">
-            <h2 className="text-4xl font-extrabold text-almond mb-8">Key Features for Chess Champions
-</h2>
+            <h2 className="text-4xl font-extrabold text-almond mb-8">Key Orchestration Features</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-khaki">
               {/* Async & Multi-Block */}
               <div className="bg-white rounded-lg shadow-md p-6">
@@ -133,9 +134,9 @@ import React from 'react';
                 <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
                   Placeholder Image
                 </div>
-                <h3 className="text-2xl font-semibold text-almond mb-2">Secure Transactions</h3>
+                <h3 className="text-2xl font-semibold text-almond mb-2">Async & Multi-Block</h3>
                 <p className="text-gray-600 mb-4">
-                  Play with confidence. Your crypto assets are securely handled with blockchain-backed technology ensuring safe, instant payouts.
+                  Support for long-lived processes that operate across chains without immediate execution in the same block.
                 </p>
               </div>
     
@@ -145,9 +146,9 @@ import React from 'react';
                 <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
                   Placeholder Image
                 </div>
-                <h3 className="text-2xl font-semibold text-almond mb-2">Skill-Based Gameplay</h3>
+                <h3 className="text-2xl font-semibold text-almond mb-2">Timers</h3>
                 <p className="text-gray-600 mb-4">
-                  Prove your skills in high-stakes chess matches. Every game is fair, transparent, and rewarding for the best players.
+                  Enable autonomous future actions, fitting seamlessly into Agoric's asynchronous architecture.
                 </p>
               </div>
     
@@ -157,9 +158,9 @@ import React from 'react';
                 <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 mb-4">
                   Placeholder Image
                 </div>
-                <h3 className="text-2xl font-semibold text-almond mb-2">Global Connectivity</h3>
+                <h3 className="text-2xl font-semibold text-almond mb-2">Interoperability</h3>
                 <p className="text-gray-600 mb-4">
-                 Compete with chess enthusiasts from around the globe. The blockchain ecosystem connects players across borders seamlessly.
+                  Native IBC and Axelar GMP support, ensuring seamless liquidity and multi-chain applications.
                 </p>
               </div>
             </div>
@@ -170,19 +171,22 @@ import React from 'react';
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h2 className="text-4xl font-extrabold text-almond mb-4">
-                 Apply for the Early Access Program
+                  Apply for the Early Access Program
                 </h2>
                 <p className="text-gray-600 mb-4">
-                  Be among the first to experience chess redefined. Exclusive benefits include early access tournaments, personalized support, and exciting rewards
+                  Enjoy personalized, white-glove technical and marketing support designed to help you navigate and succeed
+                  on our platform.
                 </p>
                 <button className="bg-walnut-brown hover:bg-khaki text-white font-bold py-3 px-6 rounded">
                   Apply Today
                 </button>
               </div>
               <div className="flex flex-col justify-center">
-                <h3 className="text-xl font-semibold text-almond mb-2"></h3>
+                <h3 className="text-xl font-semibold text-almond mb-2">How we support your developer journey:</h3>
                 <ul className="list-disc list-inside text-gray-600">
-                  
+                  <li>White-Glove Support</li>
+                  <li>Financial Incentives</li>
+                  <li>Early Preview</li>
                 </ul>
     
               </div>
@@ -195,11 +199,15 @@ import React from 'react';
               <div className="flex flex-col justify-center">
                 <h2 className="text-4xl font-extrabold text-almond mb-4">Roadmap & Progress</h2>
                 <a href="/" className="text-blue-500 hover:text-blue-700 font-semibold flex items-center">
-                 Join us on this journey to revolutionize competitive chess. From secure blockchain implementation to advanced chess features, the future of gaming is here.
+                  View Complete Roadmap 
                 </a>
               </div>
               <div>
                 <ul className="text-gray-600">
+                  <li>Q3 2021 - Security Audit Kickoff</li>
+                  <li>Q1 2022 - Complete BLD Token Distribution</li>
+                  <li>Q2 2022 - Mainnet-1 - Inter Protocol Preview Release</li>
+                  <li>Q4 2022 - Beta Program</li>
                 </ul>
               </div>
             </div>
@@ -235,9 +243,9 @@ import React from 'react';
           <section className="container mx-auto mt-16 px-5">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-left">
-                <h2 className="text-2xl font-bold text-almond mb-4"></h2>
+                <h2 className="text-2xl font-bold text-almond mb-4">Subscribe to our newsletter for updates</h2>
                 <input type="email" placeholder="Email address" className="border border-gray-300 rounded-md px-4 py-2 text-gray-700 mr-4"/>
-                <button className="bg-walnut-brown hover:bg-khaki text-white font-bold py-2 px-4 rounded"></button>
+                <button className="bg-walnut-brown hover:bg-khaki text-white font-bold py-2 px-4 rounded">Subscribe</button>
               </div>
               <div className="text-right hidden md:flex space-x-8">
                 <div>
@@ -289,7 +297,7 @@ import React from 'react';
                   <p>info@agoric.com  (650) 747-2332</p>
                 </div>
                 <div className="text-right">
-                  <p>Made with ❤️ for chess lovers and crypto enthusiasts</p>
+                  <p>Made with ❤️ by games</p>
                 </div>
               </div>
             </div>
